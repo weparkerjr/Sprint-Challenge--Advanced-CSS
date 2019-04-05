@@ -165,7 +165,6 @@ p {
   height: 90px;
   background: #F6F6F6;
   border-bottom: 2px dashed #F1F1F1;
-  position: fixed;
   display: flex;
 }
 .main-navigation .nav-container {
