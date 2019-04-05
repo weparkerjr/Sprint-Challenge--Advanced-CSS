@@ -1,33 +1,19 @@
 // Mixins Here
-.center() {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
+
+
   
-  .border-radius(@radius) {
-    -webkit-border-radius: @radius;
-       -moz-border-radius: @radius;
-            border-radius: @radius;
-  }
-  
-  .button-creator(@width: 200px, @height:45px, @bg-color: black, @font-color=white, @font-size=1rem) {
-    .border-radius(15px);
-    .center;
-    width: @width;
-    height: @height;
+  .button-creator(@width2, @height2, @bg-color, @font-color, @font-size2) {
+    
+    width: @width2;
+    height: @height2;
     background-color: @bg-color;
     color: @font-color;
-    // border: 1px solid @border-real;
     cursor: pointer;
-    font-size: @font-size;
+    font-size: @font-size2;
   
     // @media @mobile {
     //   width: 100%;
     // }
     
-    &:hover {
-      background: @white;
-      color: @button-bg;
-    }
   }
