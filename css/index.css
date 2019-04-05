@@ -174,21 +174,21 @@ p {
   align-items: center;
   justify-content: space-around;
 }
-.main-navigation .nav-container .logo-heading {
-  font-size: 4rem;
-}
-.main-navigation .nav-container .logo-heading .nav {
+.main-navigation .nav-container .nav {
   width: 350px;
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
 }
-.main-navigation .nav-container .logo-heading .nav .nav-link {
-  font-size: 4rem;
+.main-navigation .nav-container .nav .nav-link {
+  font-size: 1.6rem;
   color: #5E6164;
   text-decoration: none;
   display: flex;
   justify-content: space-around;
+}
+.main-navigation .nav-container .logo-heading {
+  font-size: 4rem;
 }
 footer {
   color: #22283B;

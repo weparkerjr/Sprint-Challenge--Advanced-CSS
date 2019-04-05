@@ -3,6 +3,11 @@
     border-radius: @radius;
 }
 
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
   
 .button-creator(@width2, @height2, @bg-color, @font-color, @font-size2) {
@@ -17,5 +22,9 @@
     // @media @mobile {
     //   width: 100%;
     // }
+    &:hover {
+        background: @gfont-color;
+        color: @bg-color;
+        }
 
 }
