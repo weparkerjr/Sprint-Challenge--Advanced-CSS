@@ -244,12 +244,19 @@ footer {
 }
 .home .walk .walk-text .btn {
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 45px;
   background-color: black;
   color: white;
   cursor: pointer;
   font-size: 2rem;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
